@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="calculator-title">Kalkulator JS</h1>
+    <div class="flex-container-column card">
+        <div class="display">
+            <h1 id="displayNumber">0</h1>
+        </div>
+        <div class="flex-container-row">
+            <div class="button">7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button operator">+</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button operator">-</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button operator">x</div>
+        </div>
+        <div class="flex-container-row">
+            <div class="button clear">CE</div>
+            <div class="button">0</div>
+            <div class="button equals">=</div>
+            <div class="button operator">:</div>
+        </div>
+        <div class="user-guide">
+            <p><strong>*User Guide</strong></p>
+
+            <p>1. Masukkan angka pertama.</p>
+            <p>2. Pilih operator (Operator tidak akan muncul pada display namun akan ada alert jika operator
+                belum/sudah dipilih).</p>
+            <p>3. Masukkan angka kedua.</p>
+            <p>4. Tekan tombol = untuk melihat hasil.</p>
+            <p>5. Tekan tombol CE untuk memulai operasi baru agar tidak menemukan error.</p>
+
+        </div>
+        <!-- <div class="history card">
+            <h2>Riwayat Perhitungan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Angka Pertama</th>
+                        <th>Operator</th>
+                        <th>Angka Kedua</th>
+                        <th>Hasil</th>
+                    </tr>
+                </thead>
+                <tbody id="historyList"></tbody>
+            </table>
+        </div> -->
+        <script src="assets/kalkulator.js"></script>
+        <!-- <script src="assets/storage.js"></script> -->
+
+</body>
+
+</html>
